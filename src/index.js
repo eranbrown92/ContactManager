@@ -2,12 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Header from "./components/Header";
 import Contacts from "./components/Contacts";
+
 import "./styles.css";
 
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <Header />
         <Contacts />
       </div>

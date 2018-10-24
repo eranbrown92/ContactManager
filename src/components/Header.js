@@ -1,6 +1,14 @@
 import React from "react";
 
 function Header() {
-  return <header>My Contacts</header>;
+  return (
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo center">
+          Contact Manager
+        </a>
+      </div>
+    </nav>
+  );
 }
 export default Header;

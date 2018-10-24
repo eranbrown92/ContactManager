@@ -20,7 +20,7 @@ class Contacts extends React.Component {
         },
         {
           id: 3,
-          name: "JBrandon Smith",
+          name: "Brandon Smith",
           email: "bsmith@mail.com",
           phone: "555-222-5555"
         }
